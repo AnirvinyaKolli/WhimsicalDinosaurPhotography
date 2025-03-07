@@ -1,0 +1,19 @@
+@font-face {
+    font-family: whimsical;
+    src: url("Whimsical Lovelies.ttf");
+}
+
+body{
+    background-image: url("dense-night-forest-fir-pine-trees-natural-green-landscape-web-background-template-vector_532963-5946.avif");
+}
+h1{
+    text-align: center;
+    color: #FF69B4;
+    font-family: "whimsical";
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
