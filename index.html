@@ -1,17 +1,35 @@
+<!--
+    Sai Anirvinya Kolli 
+    Mix and Match Website 
+    3/8/25
+    Extra: Button that goes to element using ID 
+-->
+
+
 <!DOCTYPE html>
 <html>
     
     <head>
+        <!--Setup-->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>Title</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <!--Button-->
+        <button onclick="scrollToElement()">Go to Element</button>        
+        
+        <!--Header-->
         <h1>
            o WHIMSICAL DINOSAUR PHOTOGRAPHY o
         </h1>
-        <img src="dinosaur-fun-playing-volleyball-on-a-beach-vacation-martin-davey.jpg" alt="dinosaur-fun-playing-volleyball-on-a-beach-vacation-martin-davey">
-        <script>src="script.js"</script>
+        <!--Images-->
+        <img id="whimsicalDinosaurImage" src="dinosaur-fun-playing-volleyball-on-a-beach-vacation-martin-davey.jpg" alt="dinosaur-fun-playing-volleyball-on-a-beach-vacation-martin-davey">
+        <!--Caption -->
+        <h2 class="caption"> WHIMSICAL PHOTOGRAPH</h2>
+        <!--Paragraph-->
+        <p>This is a site speaking about the wonders of the PHOTOGRAPHY of WHIMSICAL dinosaurs it really shows how every one can benifit from view such pictures and not being a uptight person who hates dinoasaurs and whimsical PHOTOGRAPHY</p>
+        <script src="script.js"></script>
     </body>
 </html>

@@ -11,6 +11,13 @@ h1{
     color: #FF69B4;
     font-family: "whimsical";
 }
+.caption{
+    text-align: center;
+    color: #FF69B4;
+}
+p{
+    color: #FFFFFF;
+}
 img {
     display: block;
     margin-left: auto;
